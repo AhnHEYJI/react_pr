@@ -8,7 +8,7 @@ a{
         width: 40px;
         height: 40px;
         display: block;
-        background-color: var(--red); 
+        background-color:var(--logocolor); 
         margin-right: 10px;
         animation: ani 10s 2s ease-in-out infinite;
     }
@@ -46,8 +46,8 @@ a{
                     width: 1.25rem;
                     height: 1.25rem;
                     position: absolute;
-                    left: 1.25rem;
-                    top: 0.75rem;
+                    left: 1.30rem;
+                    top: 0.80rem;
                 }
                 &:hover{
                 background-color: var(--black100);
@@ -72,28 +72,15 @@ a{
     text-align: center;
     padding: 15px 0 10px;
     background-color: var(--blackAlpha100);
+    backdrop-filter: blur(10px);
 
     li {
-        display: inline-block;
-
+        display: inline;
         a {
-            padding: 5px 10px;
-            display: inline-block;
-            list-style: none;
-            text-align: center;
-       
+            padding: 5px 7px;
+            display: contents;
+            
 
-
-            svg{
-                width: 1.25rem;
-                height: 1.25rem;
-                position: absolute;
-                left: 1.25rem;
-            }
-            &:hover{
-            background-color: var(--black100);
-            color:  var(--white);
-            }
         }
     }
 }
@@ -114,4 +101,5 @@ a{
         border-radius: 0;
     }
 }
-} 
+}
+
