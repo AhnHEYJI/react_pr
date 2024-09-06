@@ -7,6 +7,7 @@
     height: 100%;
     z-index: 10000;
     background-color: #000;
+    border-right: 1px solid var(--back100);  //보더라인색 
 }
 
 #main{
@@ -14,11 +15,18 @@
     min-height: 100vh;
     margin: 0 auto;
     padding-left: 260px;
-    background-color: #111;
 }
 
 #footer{
+
     text-align: center;
-    background-color: #333;
-    padding: 20px 20px 20px 260px;
+    background-color: var(--black100);
+    border-top: 1px solid (var--black100);
+    padding: 20px;
+    margin-left: 260px;
+    width: calc(100% - 260px);//padding에서 준 수치 만큼 width에서 나누기 해줄때 써주는 것 calc // 가운데 정렬
+    color: var(--black400);
+    font-size: 0.8rem;
+
+
 }
