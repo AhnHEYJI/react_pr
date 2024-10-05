@@ -1,7 +1,6 @@
 import React from 'react'
-import { todayText } from '../../data/Today'
 import { Link } from 'react-router-dom'
-
+import { todayText } from '../../data/Today'
 const Today = () => {
   return (
 

@@ -24,9 +24,9 @@ export const todayText = [
     },
     {
         img: todayView03,
-        title: "React Portfolio Website Tutorial",
-        desc : "Lama Dev 유튜브님의 유튜브 프로젝트를 소개해드리려고 합니다.React 포트폴리오 웹사이트 튜토리얼 초보자를 위한 반응형 React 프로젝트 전체 과정 유트브 사이트 입니다. 영어권이지만 자세하게 강의를 해주십니다..",
-        author : "Lama Dev",
+        title: "웹스토리보이님의 리액트강의입니다.",
+        desc : "웹스토리보이 유튜브님의 유튜브 프로젝트를 소개해드리려고 합니다.React 포트폴리오 웹사이트 튜토리얼 초보자를 위한 반응형 React 프로젝트 전체 과정 유트브 사이트 입니다.",
+        author : "webstoryboy",
         channelId: "7WwtzsSHdpI",
         date: "2021.04.16",
         page: "/youtube"
