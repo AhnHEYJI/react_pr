@@ -1,32 +1,41 @@
-#header{
+#header {
     position: fixed;
-    left:  0;
+    left: 0;
     top: 0;
     width: 260px;
-    overflow-y:auto;
     height: 100%;
+    overflow-y: auto;
     z-index: 10000;
     background-color: #000;
-    border-right: 1px solid var(--back100);  //보더라인색 
 }
-
-#main{
+#main {
     max-width: 2000px;
     min-height: 100vh;
     margin: 0 auto;
     padding-left: 260px;
+    background-color: #111;
+}
+#footer {
+    text-align: center;
+    background-color: #333;
+    padding: 20px 20px 20px 260px;
 }
 
-#footer{
+@media (max-width: 800px){  // 모바일반응형작업
+    #header {
+        left: -260px;
 
-    text-align: center;
-    background-color: var(--black100);
-    border-top: 1px solid (var--black100);
-    padding: 20px;
-    margin-left: 260px;
-    width: calc(100% - 260px);//padding에서 준 수치 만큼 width에서 나누기 해줄때 써주는 것 calc // 가운데 정렬
-    color: var(--black400);
-    font-size: 0.8rem;
-
-
+        h1 {
+            position: fixed;
+            left: 0;
+            top: 0;
+        }
+    }
+    #main {
+        padding-left: 0;
+    }
+    #footer {
+        width: 100%;
+        margin-left: 0;
+    }
 }

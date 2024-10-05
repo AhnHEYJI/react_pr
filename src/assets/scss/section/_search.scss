@@ -9,7 +9,7 @@
         width: 24px;
         height: 24px;
         background-image: url(../../img/icon/search.svg);
-        position: absolute; //이미지 위치조정 (기준점은 search__inner에 position: relative 입력하기 
+        position: absolute; 
         left: 53px;
         top: 28px;
         background-size: cover;
@@ -25,5 +25,26 @@
         border-radius: 40px;
         font-size: 16px;
         color: var(--white);
+    }
+
+
+    @media (max-width: 800px){  //모바일용 반응형 작업
+        .search__inner{
+            position: fixed;
+            left: 0;
+            top: 0;
+            width: 100%;
+            z-index: 1000;
+            background-color: var(--blackAlpha400);
+            backdrop-filter: blur(10px);
+            padding: 17px 20px 17px 200px;
+    
+            label {
+                left: 213px;
+            }
+            input {
+                padding: 14px 14px 14px 45px;
+            }
+        }
     }
 }

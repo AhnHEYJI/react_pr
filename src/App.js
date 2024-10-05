@@ -7,6 +7,7 @@ const Today = lazy(() => import('./pages/Today'));
 const Developer = lazy(() => import('./pages/Developer'));
 const Music = lazy(() => import('./pages/Music'));
 
+
 const App = () => {
   return (
     <BrowserRouter>
@@ -17,6 +18,7 @@ const App = () => {
       <Route path ='/today'element={<Today/>}/>
       <Route path ='/developer'element={<Developer/>}/>
       <Route path ='/music'element={<Music/>}/>
+    
     </Routes>
     </Suspense>
     </BrowserRouter>
