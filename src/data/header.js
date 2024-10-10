@@ -2,7 +2,6 @@
 import { CiBaseball } from "react-icons/ci";
 import { FiFolder } from "react-icons/fi";
 import { FiHeart } from "react-icons/fi";
-import { FiMusic } from "react-icons/fi";
 import { AiFillGithub } from "react-icons/ai";
 
 
@@ -23,11 +22,7 @@ export const headerMenus = [
         icon: <FiHeart />,
         src: "/developer"
     },
-    {
-        title: "코딩공부 할때듣는음악추천",
-        icon: <FiMusic />,
-        src: "/music"
-    },
+   
 ];
 export const searchKeyword = [
     {

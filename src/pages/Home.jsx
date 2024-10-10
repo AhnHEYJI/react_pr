@@ -2,7 +2,6 @@ import React from 'react'
 import Main from '../components/section/Main'
 import Today from '../components/contents/Today'
 import Developer from '../components/contents/Developer'
-import Music from '../components/contents/Music'
 
 const Home = () => {
   return (
@@ -11,9 +10,6 @@ const Home = () => {
 
      <Today />
      <Developer />
-     <Music />
-
-   
     </Main>
   )
 }
