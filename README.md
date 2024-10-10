@@ -1,0 +1,35 @@
+# 나만의 유튜브 사이트 만들기 프로젝트
+
+이 튜토리얼은 하나의 웹사이트를 여러 가지 프레임워크를 사용하여 만드는 방법에 대해 소개합니다.
+웹 개발자들은 종종 다양한 프레임워크를 이용하여 작업하게 됩니다.
+이 과정에서 여러 가지 프레임워크들을 어떻게 적용하는지 알아보고,
+각 프레임워크들의 장단점을 비교 분석하며 학습하게 됩니다.
+
+
+1. [react.js](https://github.com/webstoryboy/port2023-react)를 이용하여 사이트를 제작합니다.
+
+
+나만의 유튜브 홈페이지 프로젝트 연습 입니다. 
+
+## 완성작 보기
+
+미리보기 :
+
+## 사용 스택
+- react을 사용하여 사이트를 만듭니다.
+- git(https://github.com/) 을 사용하여 파일을 관리합니다.
+- HTML, CSS 기반으로 웹사이트의 기본 레이아웃 설계하고, 웹 표준 및 웹 접근성을 준수하여 작업합니다.
+- [ARIA(Accessible Rich Internet Applications)](https://developer.mozilla.org/en-US/docs/Web/Accessibility/ARIA/Roles)
+## 프로젝트 실행
+- react 설치합니다. `npx create-react-app 타이틀`
+- react-router-dom을 설치합니다. `npm install react-router-dom`
+- axios를 설치합니다. `npm install axios`
+- react-icons 을 설치합니다. `npm install react-icons`
+- react-player를 설치합니다.`npm install react-player`
+- sass를 설치합니다. `npm install sass`
+- react-helmet-async를 설치합니다. `npm install react-helmet-async`
+- swiper를 설치합니다. `npm install swiper`
+- vite를 설치합니다. `npm create vite@latest`
+- gsap를 설치합니다. `npm install gsap`
+- lenis를 설치합니다. `npm install @studio-frei ght/lenis`
+- vite를 설치 후 환경 설정을 합니다. `vite.config.js`파일을 만들고 다음과 같이 작성합니다.
